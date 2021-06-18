@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+body > div {
+  width: 300px;
+  height: 700px;
+  position: absolute;
+  background-color: white;
+  border-radius: 30px;
+}
+.main-screen {
+  left: 200px;
+  padding: 30px 20px;
+  position: relative;
+}
+.play-screen {
+  right: 200px;
+  padding: 30px 20px;
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.singer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singer-info__image > img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.singer-info__sub h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.singer-info__sub h5 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+.option-button > form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.option-button > form > button {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+.option-button > form > :first-child {
+  color: white;
+  background-color: rgb(27, 14, 4);
+}
+.option-button > form > :last-child {
+  text-align: center;
+  color: rgb(179, 175, 174);
+  background-color: white;
+  box-shadow: 0.2px 0.2px 0.2px 0.2px;
+}
+.option-button > form > button > i {
+  color: rgb(51, 50, 50);
+  margin-right: 5px;
+}
+.sub-song__row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 1px 1px 0.2px 0.1px rgba(228, 225, 225, 0.5);
+  border-radius: 20px;
+  padding: 0 5px;
+}
+.sub-song__row > i {
+  margin-left: 60px;
+}
+.sub-son__row-text > h5 {
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0px;
+  width: 100px;
+}
+.sub-son__row-text > h3 {
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.sub-song img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.sub-song__row > i {
+  color: rgba(0, 0, 0, 0.3);
+}
+.controlbox__songinfo > h5 {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+.controlbox__songinfo > h3 {
+  margin: 0;
+}
+.controlbox {
+  justify-content: space-between;
+  display: flex;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  height: 60px;
+  width: 250px;
+  margin: 0 5px;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(27, 14, 4);
+}
+.controlbox__songinfo {
+  color: white;
+}
+.controlbox__icon {
+  margin-top: 12px;
+  margin-right: 5px;
+}
+.controlbox__icon > i {
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+}
+
+.play-screen__item {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play-screen__item > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(235, 87, 87);
+}
+.play-screen__item > h3 {
+  margin: 0px;
+  margin-top: 50px;
+}
+.play-screen__item > h5 {
+  color: rgba(0, 0, 0, 0.3);
+  margin: 0px;
+  margin-top: 10px;
+}
+.play-bar {
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.play-bar__time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0 3px;
+}
+.play-bar > div > input {
+  width: 240px;
+  height: 5px;
+  background: rgb(109, 106, 106);
+  color: aliceblue;
+}
+.playbtn__ul {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playbtn__li {
+  list-style: none;
+  padding: 0 12px;
+}
